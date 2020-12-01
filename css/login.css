@@ -1,6 +1,5 @@
 body {
-    background-color: white;
-    font-family: 'Rokkitt', serif;
+
 }
 
 .celular {
@@ -26,6 +25,7 @@ header {
     justify-content: center;
     align-items: center;
     height: 5rem;
+    margin-bottom: 8rem;
 }
 
 .titulo {
@@ -43,15 +43,23 @@ header {
     position: relative;
     display: flex;
     justify-content: center;
+    margin-bottom: 2rem;
 }
 
-.botao {
+.insert-text, .insert-password {
     display: flex;
     position: relative;
     justify-content: center;
 }
 
-.link-botao {
+.botao {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: center;
+}
+
+.link-botao  {
     width: 33%;
     margin-top: 1rem;
     display: block;
@@ -66,12 +74,10 @@ header {
 }
 
 .botao:active {
-
     border-top-color: black;
     border-right-color: gray;
     border-bottom-color: gray;
     border-left-color: black;
-    
 }
 
 .botao:active span{
