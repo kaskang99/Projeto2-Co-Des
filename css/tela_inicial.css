@@ -52,10 +52,28 @@ header {
     left: 0;
 }
 
-.horas-de-jogo {
+.grid-inicial {
     display: flex;
     position: relative;
     justify-content: center;
+    width: 9rem;
+    height: 5rem;
+    margin-bottom: 1.2rem;
     border: .1rem solid black;
     border-radius: .5rem;
+    left: 7rem;
+}
+
+.horas-de-jogo::after {
+    content: "\a";
+    white-space: pre;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.jogo-mais-jogado {
+    display: flex;
+    position: relative;
+    justify-content: center;    
 }
