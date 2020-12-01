@@ -1,6 +1,6 @@
 body {
     background-color: white;
-    font-family: 'Signika', sans-serif;
+    font-family: 'Sorts Mill Goudy', serif;
 }
 
 .celular {
@@ -31,6 +31,7 @@ header {
 
 .titulo {
     font-size: 2rem;
+    font-family: 'Signika', sans-serif;
 }
 
 .login-stuff {
