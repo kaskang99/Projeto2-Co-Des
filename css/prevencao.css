@@ -46,6 +46,7 @@ body {
     color: #7745FF;
     font-size: 2rem;
     font-family: 'Signika', sans-serif;
+    color: #7745FF;
 }
 
 .grid2x2 {
@@ -72,8 +73,10 @@ body {
     background-color: #33FDAD;
     margin: 1rem;
     margin-top: 1rem;
-    height: 6rem;
-    justify-content: center;
+    background-color: #33FDAD;
+    border: .1rem solid black;
+    border-radius: .5rem;
+
 }
 
 header {
