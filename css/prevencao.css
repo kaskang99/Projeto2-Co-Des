@@ -57,7 +57,7 @@ body {
     flex-direction: row;
 }
 .grid2x2 > div {
-    border: 0.1 solid black;
+    border: 0.1rem solid black;
     display: flex; 
     flex-basis: calc(50% - 40px);  
     justify-content: center;

@@ -89,7 +89,7 @@ img{
     width: 100%;
     height:100%;
     display: block;
-    border: .1rem 100% 1rem 1rem;
+    border: .1rem 1rem 1rem;
     font-size: 1.3rem;
     text-decoration: none;
     margin: 0.3rem;
@@ -111,6 +111,3 @@ img{
     border-radius: .5rem;
     justify-content: center;
 }
-/*
-create div class called descricao e nele colocar o texto da 
-descricao e a foto e dar um flex direction row
