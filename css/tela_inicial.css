@@ -1,5 +1,5 @@
 html {
-    text-decoration: none;
+    color: #7745FF ;
 }
 
 body {
@@ -25,6 +25,7 @@ body {
 }
 
 header {
+    background-color: #3FEEFA;
     position: relative;
     display: flex;
     justify-content: center;
@@ -41,11 +42,13 @@ main {
 }
 
 .titulo {
+    color: #7745FF ;
     font-size: 2rem;
     font-family: 'Signika', sans-serif;
 }
 
 .aba {
+    background-color: #64FA2F;
     color: black;
     display: flex;
     position: fixed;
@@ -75,6 +78,10 @@ main {
     margin-bottom: 1.2rem;
     border: .1rem solid black;
     border-radius: .5rem;
+}
+
+.horas-de-jogo {
+    align-self: center;
 }
 
 .horas-de-jogo::after {
@@ -117,19 +124,3 @@ main {
     margin-top: 3rem;
     height: 6rem;
  }
-
-.botao1 {
-    color: black;
-    display: block;
-    margin: 2rem;
-    border: .1rem solid black;
-    padding: 1rem 1rem 1rem 1rem;
-    background-size: 2rem 2rem;
-    background-repeat: no-repeat;
-    background-position: 1rem 1rem;
-    font-size: 2rem;
-    text-decoration: none;
-    border-radius: .5rem;
-    text-decoration: none;
-}
-

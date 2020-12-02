@@ -1,3 +1,7 @@
+html {
+    color: #7745FF ;
+}
+
 body {
     background-color: white;
     font-family: 'Sorts Mill Goudy', serif;
@@ -28,7 +32,7 @@ header {
     justify-content: center;
     align-items: center;
     height: 5rem;
-    margin-bottom: 8rem;
+    margin-bottom: 0.5rem;
 }
 
 .titulo {
@@ -36,50 +40,46 @@ header {
     font-family: 'Signika', sans-serif;
 }
 
-.login-stuff {
+.aba {
+    background-color: #64FA2F;
+    color: black;
     display: flex;
-    flex-direction: column;
-    position: relative;
+    position: fixed;
     justify-content: center;
+    width: 1rem;
+    height: 1rem;
+    border: .1rem solid black;
+    text-decoration: none;
+    margin-top: 1rem;
+    margin-left: .6rem;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: .5rem;
+    top: 0;
+    left: 0;
 }
 
-.login {
-    position: relative;
+.contato {
     display: flex;
+    position: relative;
     justify-content: center;
     margin-bottom: 2rem;
+    border-bottom: .1rem solid black;
 }
 
-.insert-text, .insert-password {
-    display: flex;
-    position: relative;
-    justify-content: center;
+.foto-edu {
+    justify-self: flex-start;
+    margin-bottom: .2rem;
+    border-radius: 50%;
+    width: 10%;
 }
 
-.input {
-    margin-bottom: 1rem;
-    border-radius: ;
+.nome-contato {
+    margin-top: .6rem;  
 }
 
-.botao {
-    display: flex;
-    flex-direction: row;
-    position: relative;
+.chat-input {
     align-self: center;
-}
-
-.link-botao  {
-    background-color: #3385FD ;
-    display: flex;
-    position: relative;
-    align-self: center;
-    justify-content: center;
-    width: 2.8rem;
-    margin-top: 1rem;
-    display: block;
-    border: .1rem solid black;
-    background-repeat: no-repeat;
-    font-size: 1rem;
-    text-decoration: none;
-    border-radius: .5rem;   
+    margin-top: 30rem;
+    margin-right: 0.5rem;
 }
