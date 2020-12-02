@@ -21,6 +21,8 @@ body {
 }
 
 header {
+    color: #7745FF ;
+    background-color: #3FEEFA ;
     position: relative;
     display: flex;
     justify-content: center;
@@ -54,15 +56,25 @@ header {
     justify-content: center;
 }
 
+.input {
+    margin-bottom: 1rem;
+    border-radius: ;
+}
+
 .botao {
     display: flex;
     flex-direction: row;
     position: relative;
-    justify-content: center;
+    align-self: center;
 }
 
 .link-botao  {
-    width: 33%;
+    background-color: #3385FD ;
+    display: flex;
+    position: relative;
+    align-self: center;
+    justify-content: center;
+    width: 2.8rem;
     margin-top: 1rem;
     display: block;
     border: .1rem solid black;
@@ -70,20 +82,4 @@ header {
     font-size: 1rem;
     text-decoration: none;
     border-radius: .5rem;   
-    display: flex;
-    position: relative;
-    justify-content: center;
-}
-
-.botao:active {
-    border-top-color: black;
-    border-right-color: gray;
-    border-bottom-color: gray;
-    border-left-color: black;
-}
-
-.botao:active span{
-    position: relative;
-    top: 1rem;
-    left: 1rem;
 }
