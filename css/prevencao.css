@@ -45,6 +45,7 @@ html, body {
 .titulo {
     font-size: 2rem;
     font-family: 'Signika', sans-serif;
+    color: #7745FF;
 }
 
 .grid2x2 {
@@ -71,7 +72,7 @@ html, body {
     font-size: 2rem;
     text-decoration: none;
     height: 6rem;
-    background-color: #64FA2F;
+    background-color: #33FDAD;
     border: .1rem solid black;
     border-radius: .5rem;
 }
