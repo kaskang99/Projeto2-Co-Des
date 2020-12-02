@@ -1,4 +1,4 @@
-html, body {
+body {
     height: 100%;
     margin: 0;
     font-family: 'Sorts Mill Goudy', serif;
@@ -45,12 +45,14 @@ html, body {
 }
 
 header {
+    color: #7745FF;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 5rem;
     background-color: #3FEEFA;
+    border-bottom: .1rem solid black;
 }
 
 ul{
@@ -58,7 +60,8 @@ ul{
 }
 
 .ti{
-    font-size:2rem;
+    margin-left: 1.5rem;
+    font-size: 1.8rem;
 }
 
 .container{
@@ -77,9 +80,25 @@ img{
 }
 
 .botao-problema{
+    color: black;
     background-color: red;
     width: 100%;
-    height
+    margin-left: .5rem;
+}
+
+.botao {
+    color: black;
+    background-color: #33FDAD;
+    display: block;
+    margin: 1rem;
+    border: .1rem solid black;
+    padding: 1rem 1rem 1rem 3rem;
+    background-size: 2rem 2rem;
+    background-repeat: no-repeat;
+    background-position: 1rem 1rem;
+    font-size: 1.4rem;
+    text-decoration: none;
+    border-radius: .5rem;
 }
 
 /*

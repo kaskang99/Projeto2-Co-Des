@@ -16,12 +16,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 5rem;
+    margin-top: 4rem;
     font-size: 1.5rem;
 
 }
 
 .grid2x2 {
+    margin-top: 2rem;
     min-height: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -62,6 +63,7 @@ body {
 }
 
 header {
+    color: #7745FF;
     position: relative;
     display: flex;
     justify-content: center;
@@ -97,6 +99,7 @@ main {
 }
 
 .botao {
+    color: black;
     justify-content: center;
 }
 

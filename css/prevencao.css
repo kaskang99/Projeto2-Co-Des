@@ -1,11 +1,11 @@
-html, body {
+body {
     height: 100%;
     margin: 0;
     font-family: 'Sorts Mill Goudy', serif;
 
 }
 
-.aba{
+.aba {
     color: black;
     background-color:  #64FA2F;
     display: flex;
@@ -43,17 +43,20 @@ html, body {
 }
 
 .titulo {
+    color: #7745FF;
     font-size: 2rem;
     font-family: 'Signika', sans-serif;
 }
 
 .grid2x2 {
+    margin-top: 2rem;
     min-height: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
 }
 .grid2x2 > div {
+    border: 0.1 solid black;
     display: flex; 
     flex-basis: calc(50% - 40px);  
     justify-content: center;
@@ -63,17 +66,14 @@ html, body {
     display: flex;
     justify-content: center;
     flex-direction: row;
-    height: 6rem;
 }
   
-.box { margin: 1rem; 
-    flex-grow: 4;
-    font-size: 2rem;
-    text-decoration: none;
+.box { 
+    background-color: #33FDAD;
+    margin: 1rem;
+    margin-top: 1rem;
     height: 6rem;
-    background-color: #64FA2F;
-    border: .1rem solid black;
-    border-radius: .5rem;
+    justify-content: center;
 }
 
 header {
@@ -83,4 +83,10 @@ header {
     align-items: center;
     height: 5rem;
     background-color: #3FEEFA;
+    border-bottom: 0.1rem solid black;
+}
+
+.botao {
+    color: black;
+    justify-content: center;
 }

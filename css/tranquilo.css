@@ -84,7 +84,7 @@ main {
 .descricao3{
     font-size: 0.9rem;
     margin-left: 1rem;
-    margin-top: 7rem;
+    margin-top: 5rem;
     width: 15rem;
 }
 
@@ -99,9 +99,9 @@ main {
     color: black;
     background-color: #33FDAD;
     display: block;
-    margin: 1rem;
+    margin: 5rem;
     border: .1rem solid black;
-    padding: 1rem 1rem 1rem 4rem;
+    padding: 1rem 1rem 1rem 3rem;
     background-size: 2rem 2rem;
     background-repeat: no-repeat;
     background-position: 1rem 1rem;
