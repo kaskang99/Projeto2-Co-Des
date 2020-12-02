@@ -1,4 +1,4 @@
-html, body {
+body {
     height: 100%;
     margin: 0;
     font-family: 'Sorts Mill Goudy', serif;
@@ -52,6 +52,7 @@ header {
     align-items: center;
     height: 5rem;
     background-color: #3FEEFA;
+    border: .1rem solid black;
 }
 
 ul{
@@ -59,11 +60,13 @@ ul{
 }
 
 .ti{
-    font-size:2rem;
+    margin-left: 1.5rem;
+    font-size: 1.8rem;
 }
 
 .text{
-    font-size:1.3rem;
+    font-size: 1.1rem;
+    margin-left: 1rem;
 }
 
 .container{
@@ -93,6 +96,21 @@ img{
     border-radius: 0.2em;
 }
 
+.botao {
+    color: black;
+    background-color: #33FDAD;
+    display: block;
+    margin: 1rem;
+    border: .1rem solid black;
+    padding: 1rem 1rem 1rem 3rem;
+    background-size: 2rem 2rem;
+    background-repeat: no-repeat;
+    background-position: 1rem 1rem;
+    font-size: 1.4rem;
+    text-decoration: none;
+    border-radius: .5rem;
+    justify-content: center;
+}
 /*
 create div class called descricao e nele colocar o texto da 
 descricao e a foto e dar um flex direction row
