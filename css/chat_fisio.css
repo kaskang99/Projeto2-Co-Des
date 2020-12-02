@@ -61,20 +61,23 @@ header {
 
 .contato {
     display: flex;
-    position: relative;
-    justify-content: center;
     margin-bottom: 2rem;
     border-bottom: .1rem solid black;
 }
 
 .foto-edu {
-    justify-self: flex-start;
+    display: flex;
+    justify-content: left;
     margin-bottom: .2rem;
+    margin-right: 7.5rem;
     border-radius: 50%;
     width: 10%;
 }
 
 .nome-contato {
+    display: flex;
+    align-self: center;
+    justify-content: center;
     margin-top: .6rem;  
 }
 
