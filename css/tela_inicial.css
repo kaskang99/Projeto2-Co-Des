@@ -105,11 +105,7 @@ main {
     flex-direction: row;
   }
 
-<<<<<<< HEAD
-  .grid2x2 > div {
-=======
 .grid2x2 > div {
->>>>>>> 98d4b006443be0bc3845ee49f4a8dac51781da7c
     border: .1rem solid black;
     display: flex; 
     flex-basis: calc(50% - 40px);  
@@ -122,13 +118,8 @@ main {
     flex-direction: row;
   }
 
-<<<<<<< HEAD
-.box {
-    background-color: #33fdad;
-=======
 .box { 
     background-color: #33FDAD;
->>>>>>> 98d4b006443be0bc3845ee49f4a8dac51781da7c
     margin: 1rem;
     margin-top: 3rem;
     height: 6rem;
